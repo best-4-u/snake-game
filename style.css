@@ -1,0 +1,46 @@
+#arena {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  vertical-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.meat {
+  width: 20px;
+  height: 20px;
+  background: url("./assets/pizza.png") yellow;
+  background-size: cover;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  background-color: yellow;
+}
+
+.snake_head {
+  width: 20px;
+  height: 20px;
+  background: url("./assets/snake_head.jpg") black;
+  background-size: cover;
+}
+
+.snake_head.up {
+  transform: rotate(180deg);
+}
+
+.snake_head.left {
+  transform: rotate(90deg);
+}
+
+.snake_head.right {
+  transform: rotate(270deg);
+}
+
+.snake_tail {
+  width: 20px;
+  height: 20px;
+  background-color: gray;
+}
